@@ -3,7 +3,7 @@ RUN mkdir -p /app/source
 COPY . /app/source
 WORKDIR /app/source
 RUN mvn clean package
-##RUN ls -l /app/source/
+RUN ls -l /app/source/
 RUN ls -l /app/source/target/
 
 
