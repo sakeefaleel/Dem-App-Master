@@ -15,7 +15,7 @@ pipeline {
 		stage('Clone Project') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'master', url: 'git@github.com/sakeefaleel/Dem-App-Master.git'
+                git branch: 'master', url: 'git@github.com:WPRANEETH1/demo-app.git'
 			}
 		}
         stage('Build') {
